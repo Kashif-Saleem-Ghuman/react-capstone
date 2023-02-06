@@ -15,7 +15,7 @@ const Header = () => (
       </div>
 
       <div className="weather">
-        Today&apos;s Weather
+        Covid-19 Stat&apos;s
       </div>
       <div className="mic-icon-wrapper">
         <span className="mic"><FontAwesomeIcon icon={faMicrophone} /></span>

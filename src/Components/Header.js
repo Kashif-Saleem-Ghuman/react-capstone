@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faLessThan, faMicrophone, faGear,
 } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <>
     <div className="nav-bar">
       <div className="date-icon">
-        <span className="less-than-symbol"><FontAwesomeIcon icon={faLessThan} /></span>
+        <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}><span className="less-than-symbol"><FontAwesomeIcon icon={faLessThan} /></span></NavLink>
         <span className="year">
           2023
         </span>

@@ -9,7 +9,7 @@ const Header = () => (
   <>
     <div className="nav-bar">
       <div className="date-icon">
-        <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}><span className="less-than-symbol"><FontAwesomeIcon icon={faLessThan} /></span></NavLink>
+        <NavLink to="/"><span className="less-than-symbol"><FontAwesomeIcon icon={faLessThan} /></span></NavLink>
         <span className="year">
           2023
         </span>

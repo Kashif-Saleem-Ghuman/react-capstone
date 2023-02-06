@@ -1,5 +1,57 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@media only screen and (max-width: 762px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+
+  :root {
+    --primary-color: rgb(167, 199, 231);
+    --secondary-color: rgb(70, 130, 180);
+  }
+
+  body {
+    background-color: var(--primary-color);
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+  }
+}
+
+.date-icon {
+  display: flex;
+  gap: 0.25rem;
+  align-items: baseline;
+}
+
+.less-than-symbol {
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.year {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.weather {
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+}
+
+.mic-icon-wrapper {
+  display: flex;
+  gap: 0.25rem;
+  align-items: baseline;
+}
+
+.mic {
+  font-weight: 100;
 }

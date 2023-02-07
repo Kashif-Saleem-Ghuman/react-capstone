@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchData } from '../redux/slice/covid';
+import { fetchData } from '../redux/slice/Country';
 
 function Hero() {
   const dispatch = useDispatch();
@@ -9,7 +9,7 @@ function Hero() {
   console.log('covidData:', covidData);
 
   useEffect(() => {
-    dispatch(fetchData());
+    dispatch(fetchData('Pakistan'));
   }, [dispatch]);
   return (
 

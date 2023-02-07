@@ -1,14 +1,14 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 // Action
-export const fetchData = createAsyncThunk('fetchData', async () => {
+export const fetchData = createAsyncThunk('fetchData', async (inputValue) => {
   const headers = { 'X-Api-Key': 'Ct9jwXeqr/G0TwTSh6rULw==Id0v4msWsavyfT5T' };
-  const response = await fetch('https://api.api-ninjas.com/v1/country?name=Canada', { headers });
+  const response = await fetch(`https://api.api-ninjas.com/v1/country?name=${inputValue}`, { headers });
   const data = await response.json();
   return data;
 });
 
-const covidSlice = createSlice({
+const countrySlice = createSlice({
   name: 'covid',
   initialState: {
     isLoading: false,
@@ -31,4 +31,4 @@ const covidSlice = createSlice({
   },
 });
 
-export default covidSlice.reducer;
+export default countrySlice.reducer;

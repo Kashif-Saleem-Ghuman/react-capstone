@@ -8,7 +8,7 @@ function Input() {
   const dispatch = useDispatch();
   const [inputValue, setInputValue] = useState('');
   const handleSubmit = () => {
-    dispatch(fetchData(inputValue));
+    dispatch(fetchData({ key: 'min_gdp', value: inputValue }));
   };
   return (
     <>

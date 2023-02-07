@@ -9,7 +9,7 @@ const Header = () => (
   <>
     <div className="nav-bar">
       <div className="date-icon">
-        <NavLink to="/"><span className="less-than-symbol"><FontAwesomeIcon icon={faLessThan} /></span></NavLink>
+        <NavLink to="/"><span className="less-than-symbol"><FontAwesomeIcon icon={faLessThan} className="fa-thin" /></span></NavLink>
         <span className="year">
           2023
         </span>
@@ -19,8 +19,8 @@ const Header = () => (
         Country Wise Stat&apos;s
       </div>
       <div className="mic-icon-wrapper">
-        <span className="mic"><FontAwesomeIcon icon={faMicrophone} /></span>
-        <span className="gear"><FontAwesomeIcon icon={faGear} /></span>
+        <span className="mic"><FontAwesomeIcon icon={faMicrophone} className="fa-thin" /></span>
+        <span className="gear"><FontAwesomeIcon icon={faGear} className="fa-thin" /></span>
       </div>
     </div>
 

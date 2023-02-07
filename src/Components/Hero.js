@@ -9,7 +9,7 @@ function Hero() {
   console.log('covidData:', covidData);
 
   useEffect(() => {
-    dispatch(fetchData('Pakistan'));
+    dispatch(fetchData({ key: 'min_gdp', value: '100' }));
   }, [dispatch]);
   return (
 

@@ -14,7 +14,7 @@ function Input() {
     <>
       <div className="p-2 d-flex">
         <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} type="text" className="form my-2" placeholder="Enter Your Country" />
-        <button onClick={handleSubmit} aria-label="Save" type="submit" className="button my-1"><FontAwesomeIcon icon={faSearch} /></button>
+        <button onClick={handleSubmit} aria-label="Save" type="submit" className="button my-2"><FontAwesomeIcon icon={faSearch} /></button>
       </div>
 
     </>

@@ -15,8 +15,23 @@ function Hero() {
 
     <>
       {covidData.data && covidData.data.map((item) => (
-        <NavLink key={item.name} to="/details">
-          <h1>{item.name}</h1>
+        <NavLink
+          className="nav-link"
+          activeClassName="nav-link-active"
+          key={item.name}
+          to="/details"
+        >
+          <div className="container">
+            <h1 className="country-name">{item.name}</h1>
+            <h3 className="country-area">
+              {item.surface_area}
+              <span>
+                km
+                <sup>2</sup>
+              </span>
+            </h3>
+          </div>
+
         </NavLink>
       ))}
     </>

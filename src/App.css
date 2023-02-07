@@ -75,3 +75,21 @@
   display: block;
   text-align: center;
 }
+
+.country-name {
+  text-decoration: none !important;
+  color: black;
+  font-weight: 700;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link-active {
+  font-weight: bold;
+}
+
+.country-area {
+  font-size: 0.9rem;
+}

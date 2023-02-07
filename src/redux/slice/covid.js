@@ -4,8 +4,9 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 export const fetchData = createAsyncThunk('fetchData', async () => {
   const headers = { 'X-Api-Key': 'Ct9jwXeqr/G0TwTSh6rULw==Id0v4msWsavyfT5T' };
   const response = await fetch('https://api.api-ninjas.com/v1/covid19?country=Pakistan', { headers });
-  console.log(' respone json: ', response.json());
-  return response.json();
+  const data = await response.json();
+  // console.log(' respone json data: ', data);
+  return data;
 });
 
 const covidSlice = createSlice({
@@ -14,7 +15,6 @@ const covidSlice = createSlice({
     isLoading: false,
     data: null,
     isError: false,
-    reserved: false,
   },
   extraReducers: (builder) => {
     builder.addCase(fetchData.fulfilled, (state, action) => {

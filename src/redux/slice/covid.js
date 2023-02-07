@@ -3,9 +3,8 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 // Action
 export const fetchData = createAsyncThunk('fetchData', async () => {
   const headers = { 'X-Api-Key': 'Ct9jwXeqr/G0TwTSh6rULw==Id0v4msWsavyfT5T' };
-  const response = await fetch('https://api.api-ninjas.com/v1/covid19?country=Pakistan', { headers });
+  const response = await fetch('https://api.api-ninjas.com/v1/country?name=Canada', { headers });
   const data = await response.json();
-  // console.log(' respone json data: ', data);
   return data;
 });
 

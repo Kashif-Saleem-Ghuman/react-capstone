@@ -5,19 +5,20 @@ import { fetchData } from '../redux/slice/covid';
 
 function Hero() {
   const dispatch = useDispatch();
-  const data = useSelector((state) => state.covid);
-  console.log('Data:', data);
+  const covidData = useSelector((state) => state.covid);
+  console.log('covidData:', covidData);
+
   useEffect(() => {
-    // Update the document title using the browser API
     dispatch(fetchData());
   }, [dispatch]);
-
-  console.log('after fetch', data);
   return (
+
     <>
-      <NavLink to="/details">
-        <h1>Pakistan</h1>
-      </NavLink>
+      {covidData.data && covidData.data.map((item) => (
+        <NavLink key={item.name} to="/details">
+          <h1>{item.name}</h1>
+        </NavLink>
+      ))}
     </>
   );
 }

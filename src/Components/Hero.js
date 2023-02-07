@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,10 +11,19 @@ function Hero() {
   const dispatch = useDispatch();
   const covidData = useSelector((state) => state.covid);
   console.log('covidData:', covidData);
+  const shouldFetch = useRef(true);
 
   useEffect(() => {
-    dispatch(fetchData({ key: 'min_gdp', value: '100' }));
+    if (shouldFetch.current) {
+      if (covidData.data === null || covidData.data.length === 0) {
+        shouldFetch.current = false;
+        dispatch(fetchData({ key: 'min_gdp', value: '100' }));
+      }
+    }
   }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(fetchData({ key: 'min_gdp', value: '100' }));
+  // }, [dispatch]);
   return (
 
     <>

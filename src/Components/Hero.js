@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { fetchData } from '../redux/slice/Country';
+import Header from './Header';
+import Input from './Input';
 
 function Hero() {
   const dispatch = useDispatch();
@@ -16,6 +18,8 @@ function Hero() {
   return (
 
     <>
+      <Header />
+      <Input />
       <div className="stats">
         <div>STATS BY COUNTRY</div>
       </div>
@@ -38,10 +42,10 @@ function Hero() {
 
               <h1 className="country-name">{item.name}</h1>
               <h3 className="country-area">
-                {item.surface_area}
+                {item.gdp}
+                &nbsp;
                 <span>
-                  km
-                  <sup>2</sup>
+                  USD
                 </span>
               </h3>
             </div>

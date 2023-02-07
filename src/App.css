@@ -135,3 +135,29 @@
 .wrapper-input {
   background-color: var(--secondary-color);
 }
+
+.table-details {
+  color: white;
+  font-size: 1rem;
+}
+
+.value {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+
+table tr:nth-child(odd) {
+  background-color: var(--primary-color);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--secondary-color);
+}
+
+.country-title {
+  display: flex;
+  margin-left: 2vw;
+  font-size: 1.2rem;
+  font-weight: 900;
+}

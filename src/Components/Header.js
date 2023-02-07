@@ -16,7 +16,7 @@ const Header = () => (
       </div>
 
       <div className="weather">
-        Country Wise Stat&apos;s
+        COUNTRY WISE STATS
       </div>
       <div className="mic-icon-wrapper">
         <span className="mic"><FontAwesomeIcon icon={faMicrophone} className="fa-thin" /></span>

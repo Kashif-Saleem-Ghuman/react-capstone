@@ -26,7 +26,8 @@ function Hero() {
           <NavLink
             className="nav-link"
             activeClassName="nav-link-active"
-            key={item.name}
+            key={item}
+            state={item}
             to="/details"
           >
 

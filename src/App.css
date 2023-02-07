@@ -82,10 +82,6 @@
   font-weight: 700;
 }
 
-.nav-link {
-  text-decoration: none;
-}
-
 .nav-link-active {
   font-weight: bold;
 }
@@ -96,4 +92,23 @@
 
 .fa-icon {
   font-weight: 300;
+}
+
+.wrapper {
+  display: flex;
+  padding: 2vw;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  width: 48%;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.nav-link:first-child,
+.nav-link:nth-child(4n),
+.nav-link:nth-child(4n+1) {
+  background-color: var(--primary-color);
 }

@@ -96,7 +96,7 @@ Object {
         <input
           class="form my-2"
           placeholder="Enter Min GDP"
-          type="text"
+          type="number"
           value=""
         />
         <button
@@ -225,7 +225,7 @@ Object {
       <input
         class="form my-2"
         placeholder="Enter Min GDP"
-        type="text"
+        type="number"
         value=""
       />
       <button

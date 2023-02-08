@@ -10,7 +10,6 @@ import Input from './Input';
 function Hero() {
   const dispatch = useDispatch();
   const covidData = useSelector((state) => state.covid);
-  console.log('covidData:', covidData);
   const shouldFetch = useRef(true);
 
   useEffect(() => {
@@ -21,9 +20,6 @@ function Hero() {
       }
     }
   }, [dispatch]);
-  // useEffect(() => {
-  //   dispatch(fetchData({ key: 'min_gdp', value: '100' }));
-  // }, [dispatch]);
   let count = 0;
   return (
 

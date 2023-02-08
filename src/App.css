@@ -141,12 +141,6 @@
   font-size: 1rem;
 }
 
-.value {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2vw;
-}
-
 table tr:nth-child(odd) {
   background-color: var(--primary-color);
 }

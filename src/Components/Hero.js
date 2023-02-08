@@ -15,7 +15,7 @@ function Hero() {
 
   useEffect(() => {
     if (shouldFetch.current) {
-      if (covidData.data === null || covidData.data.length === 0) {
+      if (covidData.data === null) {
         shouldFetch.current = false;
         dispatch(fetchData({ key: 'min_gdp', value: '100' }));
       }
@@ -24,6 +24,7 @@ function Hero() {
   // useEffect(() => {
   //   dispatch(fetchData({ key: 'min_gdp', value: '100' }));
   // }, [dispatch]);
+  let count = 0;
   return (
 
     <>
@@ -35,33 +36,36 @@ function Hero() {
 
       <div className="wrapper">
 
-        {covidData.data && covidData.data.map((item) => (
-          <NavLink
-            className="nav-link"
-            activeClassName="nav-link-active"
-            key={item}
-            state={item}
-            to="/details"
-          >
+        {covidData.data && covidData.data.map((item) => {
+          count += 1;
+          return (
+            <NavLink
+              className="nav-link"
+              activeClassName="nav-link-active"
+              key={count}
+              state={item}
+              to="/details"
+            >
 
-            <div className="country-container">
-              <div className="circle-arrow-right">
-                <FontAwesomeIcon icon={faCircleArrowRight} />
+              <div className="country-container">
+                <div className="circle-arrow-right">
+                  <FontAwesomeIcon icon={faCircleArrowRight} />
+                </div>
+
+                <h1 className="country-name">{item.name}</h1>
+                <h3 className="country-area">
+                  {item.gdp}
+                  &nbsp;
+                  <span>
+                    USD
+                  </span>
+                </h3>
               </div>
 
-              <h1 className="country-name">{item.name}</h1>
-              <h3 className="country-area">
-                {item.gdp}
-                &nbsp;
-                <span>
-                  USD
-                </span>
-              </h3>
-            </div>
+            </NavLink>
 
-          </NavLink>
-
-        ))}
+          );
+        })}
       </div>
     </>
   );

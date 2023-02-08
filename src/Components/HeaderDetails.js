@@ -10,13 +10,10 @@ const Header = () => (
     <div className="nav-bar">
       <div className="date-icon">
         <NavLink to="/"><span className="less-than-symbol"><FontAwesomeIcon icon={faLessThan} className="fa-thin" /></span></NavLink>
-        <span className="year">
-          2023
-        </span>
       </div>
 
       <div className="weather">
-        GDP&nbsp;&nbsp;WISE&nbsp;&nbsp;STATS
+        COUNTRY STATS
       </div>
       <div className="mic-icon-wrapper">
         <span className="mic"><FontAwesomeIcon icon={faMicrophone} className="fa-thin" /></span>

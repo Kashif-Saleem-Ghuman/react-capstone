@@ -7,9 +7,6 @@ import HeaderDetails from './HeaderDetails';
 function Details() {
   const dispatch = useDispatch();
   const location = useLocation();
-  // console.log('location:', location.state);
-
-  // console.log('covidData:', covidData);
 
   useEffect(() => {
     dispatch(fetchData({ key: 'min_gdp', value: '100' }));

@@ -16,6 +16,7 @@ function Details() {
   }, [dispatch]);
   return (
     <>
+
       <HeaderDetails />
       <div className="stats">
         <div>COUNTRY DETAILS</div>

@@ -167,11 +167,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Kashif**
 
-- GitHub: [Kashif](https://github.com/Kashif-Saleem-Ghuman)
-- Twitter: [Kashif](https://twitter.com/Kashif14Saleem)
-- LinkedIn: [Kashif](https://www.linkedin.com/in/kashifsaleemghuman/)
+👤 **Kashif Saleem**
+
+- GitHub:[![Kashif](https://img.shields.io/badge/-Kashif-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Kashif-Saleem-Ghuman)
+- Twitter:[![Kashif](https://img.shields.io/badge/-Kashif-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/Kashif14Saleem)
+- LinkedIn:[![Kashif](https://img.shields.io/badge/-Kashif-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/kashifsaleemghuman/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

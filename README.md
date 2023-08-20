@@ -31,9 +31,10 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
+  - [Tech Stack](#tech-stack)
+  - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Project Images](#Project-Images)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -85,7 +86,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **Display List of countries**
-- **Display details of countries**
+- **Display details of each country**
 - **Enter a GDP value to filter countries according to minimum GDP**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,6 +96,18 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://countrywiseinfo.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project-Images <a name="Project-Images"></a>
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/Kashif-Saleem-Ghuman/react-capstone/assets/111677605/aab7fd7f-187f-4a9b-bb55-85ff2ced8cdb" alt="mobile" width="25%">
+  <img src="https://github.com/Kashif-Saleem-Ghuman/react-capstone/assets/111677605/28fdbc6a-13b1-4877-979e-250aa0efa65d" alt="desktop" width="70%">
+    <img src="https://github.com/Kashif-Saleem-Ghuman/react-capstone/assets/111677605/aab7fd7f-187f-4a9b-bb55-85ff2ced8cdb" alt="mobile" width="70%">
+  <img src="https://github.com/Kashif-Saleem-Ghuman/react-capstone/assets/111677605/28fdbc6a-13b1-4877-979e-250aa0efa65d" alt="desktop" width="20%">
+</div>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

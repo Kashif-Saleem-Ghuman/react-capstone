@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Country Web App] <a name="about-project"></a>
 
-**Country Web App** is a Single page application. It is developed using React Library and redux store.  In this simple React Web Application developed to display a list of countries and their details fetched from an API. the project makes use of key React features such as Redux and Thunk.
+**The Country Web App is a user-friendly creation built with React, making it an intuitive and interactive single-page application. By employing client-side rendering, it ensures a seamless user experience. This app dynamically fetches country data from the reliable source of https://api-ninjas.com/api/country, offering up-to-date information at your fingertips.
 
 ## 🛠 Built With <a name="built-with"></a>
 

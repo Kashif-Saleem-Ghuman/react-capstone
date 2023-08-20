@@ -151,7 +151,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using Github pages, render or netlify.
+You can deploy this project using Github pages, render or Netlify.
 
 <!--
 Example:
@@ -209,6 +209,7 @@ If you like this project please give a⭐️ and share with your friends.
 
 - I would like to give Credit to 🙏 [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
 - [Microverse](https://www.microverse.org/)
+- [API Ninjas](https://api-ninjas.com/api/country)
 - Thanks to the Microverse team for the great curriculum.
 - Hat tip to anyone whose code was used
 - A great thanks to My coding partners, morning session team, and standup team Partners for their contributions.
@@ -217,7 +218,7 @@ If you like this project please give a⭐️ and share with your friends.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **How to install redux toolkit?**
+- **How to install the redux toolkit?**
 
   - `npm i react-redux @reduxjs/toolkit`
 

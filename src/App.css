@@ -21,7 +21,7 @@
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 3vw 5vw;
+    padding: 1rem;
     background-color: var(--primary-color);
     color: white;
   }
@@ -100,13 +100,13 @@
 
   .wrapper {
     display: flex;
-    padding: 2vw;
+    padding: 1rem;
     justify-content: center;
     flex-wrap: wrap;
   }
 
   .nav-link {
-    width: 48%;
+    width: 50%;
     background-color: var(--secondary-color);
     text-decoration: none;
     color: white;
@@ -125,7 +125,7 @@
 
   .stats {
     display: flex;
-    padding: 2vw 5vw;
+    padding: 0.25rem 1rem;
     color: white;
     font-weight: 700;
     background-color: rgb(44, 80, 114);
@@ -133,7 +133,7 @@
 
   .wrapper-input {
     display: flex;
-    padding: 3.5vw;
+    padding: 1rem;
     background-color: var(--secondary-color);
   }
 
@@ -152,7 +152,7 @@
 
   .country-title {
     display: flex;
-    margin-left: 2vw;
+    margin-left: 5vw;
     font-size: 1.2rem;
     font-weight: 900;
   }
@@ -179,7 +179,7 @@
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 3.5rem;
+    padding: 1rem 3rem;
     background-color: var(--primary-color);
     color: white;
   }
@@ -251,7 +251,7 @@
   }
 
   .country-area {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
   }
 
   .fa-icon {
@@ -260,13 +260,14 @@
 
   .wrapper {
     display: flex;
-    padding: 2vw;
+    flex: 1;
+    padding: 1rem 3rem;
     justify-content: center;
     flex-wrap: wrap;
   }
 
   .nav-link {
-    width: 48%;
+    width: 50%;
     background-color: var(--secondary-color);
     text-decoration: none;
     color: white;
@@ -286,7 +287,7 @@
 
   .stats {
     display: flex;
-    padding: 1vw 5vw;
+    padding: 0.5rem 3rem;
     color: white;
     font-weight: 700;
     font-size: 1.5rem;
@@ -314,8 +315,12 @@
 
   .country-title {
     display: flex;
-    margin-left: 2vw;
-    font-size: 1.2rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
     font-weight: 900;
+  }
+
+  td.key {
+    padding: 1rem;
   }
 }

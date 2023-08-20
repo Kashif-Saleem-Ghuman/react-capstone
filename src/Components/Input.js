@@ -12,7 +12,7 @@ function Input() {
   };
   return (
     <>
-      <div className="p-2 d-flex wrapper-input">
+      <div className="wrapper-input">
         <input value={inputValue} onChange={(e) => setInputValue(e.target.value)} type="number" className="form my-2" placeholder="Enter Min GDP" />
         <button onClick={handleSubmit} aria-label="Save" type="submit" className="button my-2"><FontAwesomeIcon icon={faSearch} /></button>
       </div>

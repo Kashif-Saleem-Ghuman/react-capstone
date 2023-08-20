@@ -102,10 +102,10 @@ After you're finished please remove all the comments and instructions!
 ## Project-Images <a name="Project-Images"></a>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/Kashif-Saleem-Ghuman/react-capstone/assets/111677605/aab7fd7f-187f-4a9b-bb55-85ff2ced8cdb" alt="mobile" width="25%">
-  <img src="https://github.com/Kashif-Saleem-Ghuman/react-capstone/assets/111677605/28fdbc6a-13b1-4877-979e-250aa0efa65d" alt="desktop" width="70%">
-    <img src="https://github.com/Kashif-Saleem-Ghuman/react-capstone/assets/111677605/aab7fd7f-187f-4a9b-bb55-85ff2ced8cdb" alt="mobile" width="70%">
-  <img src="https://github.com/Kashif-Saleem-Ghuman/react-capstone/assets/111677605/28fdbc6a-13b1-4877-979e-250aa0efa65d" alt="desktop" width="20%">
+  <img src="./public/mobile.png" alt="mobile" width="25%">
+  <img src="./public/desktop.png" alt="desktop" width="70%">
+  <img src="./public/details-desktop.png" alt="mobile" width="70%">
+  <img src="./public/details-mobile.png" alt="desktop" width="25%">
 </div>
 
 
